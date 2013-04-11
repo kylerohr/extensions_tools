@@ -1,0 +1,30 @@
+name = janrain_dev
+description = Janrain Dev Profile
+core = 7.x
+
+; Core
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = file
+dependencies[] = image
+dependencies[] = menu
+dependencies[] = path
+dependencies[] = search
+dependencies[] = taxonomy
+
+; Contrib
+dependencies[] = admin_menu
+dependencies[] = ctools
+dependencies[] = devel
+dependencies[] = diff
+dependencies[] = entity
+dependencies[] = features
+dependencies[] = libraries
+dependencies[] = rules
+dependencies[] = token
+dependencies[] = user
+dependencies[] = views
+dependencies[] = views_ui
+
+files[] = janrain_dev.profile
