@@ -6,11 +6,13 @@ core = 7.x
 dependencies[] = block
 dependencies[] = comment
 dependencies[] = contextual
+dependencies[] = dblog
 dependencies[] = file
 dependencies[] = image
 dependencies[] = menu
 dependencies[] = path
 dependencies[] = search
+dependencies[] = syslog
 dependencies[] = taxonomy
 
 ; Contrib
