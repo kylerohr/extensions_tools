@@ -18,7 +18,7 @@ elif len(args) == 2:
   args.append("")
 
 def delete_drupal_directory(drupal_directory):
-  call(["rm", "-fr", "%s" % drupal_directory])
+  call(["sudo", "rm", "-fr", "%s" % drupal_directory])
 
 # TODO: Add support for detecting and destroying existing MySQL database
 
