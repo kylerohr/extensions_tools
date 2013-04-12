@@ -31,7 +31,7 @@ def delete_drupal_directory(drupal_directory):
 # for line in p.stdout.readlines():
 #   print line
 
-print "Brupal v0.1"
+print "Brupal v0.1.1"
 
 if options.drupal_directory != "." and os.path.exists(options.drupal_directory):
   print "Deleting directory '%s'..." % options.drupal_directory
@@ -51,7 +51,7 @@ call(["drush", "make", "--working-copy", "--no-gitinfofile", "janrain_dev.make",
 
 print "Copying install profile to the Drupal installation..."
 
-call(["cp", "-R", "janrain_dev", "drupal/profiles/janrain_dev"])
+call(["cp", "-R", "janrain_dev", "%s/profiles/janrain_dev" % options.drupal_directory])
 
 print "Performing a site install..."
 
